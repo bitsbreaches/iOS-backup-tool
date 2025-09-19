@@ -17,7 +17,7 @@
 
 # How to use
 ## Install the tool:
-```chmod +x install.sh```
+```chmod +x install.sh```  
 ```./install.sh```
 
 ## Install dependencies
