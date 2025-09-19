@@ -1,5 +1,6 @@
 # iOS-backup-tool
-A Linux CLI tool to backup and restore your iOS device. Tested on iPhone 14 plus, iOS 26.0 (23A341)
+- A Linux CLI tool to backup and restore your iOS device.
+- Tested on iPhone 14 plus, iOS 26.0 (23A341)
 # Features
 - Automatic device detection
 - Encrypted backup support
@@ -16,8 +17,8 @@ A Linux CLI tool to backup and restore your iOS device. Tested on iPhone 14 plus
 
 # How to use
 ## Install the tool:
-chmod +x install.sh
-./install.sh
+- chmod +x install.sh
+- ./install.sh
 
 ## Install dependencies
 ios-backup-tool install-deps
