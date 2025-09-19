@@ -1,5 +1,5 @@
 # iOS-backup-tool
-A Linux CLI tool to backup your iOS device
+A Linux CLI tool to backup and restore your iOS device. Tested on iPhone 14 plus, iOS 26.0 (23A341)
 # Features
 - Automatic device detection
 - Encrypted backup support
@@ -27,6 +27,10 @@ sudo apt install libimobiledevice6 libimobiledevice-utils
 
 ## Backup your iOS device
 ios-backup-tool backup
+
+*if phone is not being detected, run below commands*
+sudo systemctl stop usbmuxd
+sudo systemctl start usbmuxd
 
 ## List available backups:
 ios-backup-tool list
