@@ -17,8 +17,8 @@
 
 # How to use
 ## Install the tool:
-- chmod +x install.sh
-- ./install.sh
+```chmod +x install.sh```
+```./install.sh```
 
 ## Install dependencies
 ios-backup-tool install-deps
