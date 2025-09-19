@@ -21,23 +21,26 @@
 ```./install.sh```
 
 ## Install dependencies
-ios-backup-tool install-deps
+```ios-backup-tool install-deps```  
 
-*you may also need to run but may not be required*
-sudo apt install libimobiledevice6 libimobiledevice-utils 
+*you may also need to run but may not be required*  
+
+```sudo apt install libimobiledevice6 libimobiledevice-utils``` 
 
 ## Backup your iOS device
-ios-backup-tool backup
+```ios-backup-tool backup```  
 
-*if phone is not being detected, run below commands*
-sudo systemctl stop usbmuxd
-sudo systemctl start usbmuxd
+*if phone is not being detected, run below commands*  
+
+```sudo systemctl stop usbmuxd```  
+
+```sudo systemctl start usbmuxd```
 
 ## List available backups:
-ios-backup-tool list
+```ios-backup-tool list```
 
 ## Restore from backup
-ios-backup-tool restore /path/to/backup
+```ios-backup-tool restore /path/to/backup```
 
 ## Clean up old backups
-ios-backup-tool clean 5
+```ios-backup-tool clean 5```
